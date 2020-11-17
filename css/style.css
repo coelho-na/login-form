@@ -112,3 +112,17 @@ form {
   font-family: "Poppins", sans-serif;
   color: #555;
 }
+
+a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #999;
+  font-size: 0.9rem;
+  transition: .3s;
+}
+
+a:hover{
+  color: #38d39f;
+
+}
