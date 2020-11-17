@@ -8,42 +8,46 @@
       src="https://kit.fontawesome.com/1788c719dd.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Animated Login Form</title>
   </head>
   <body>
-    <img class="wave" src="img/wave.png" alt="" />
-
+    <img class="wave" src="img/wave.png">
     <div class="container">
-      <div class="phone-undraw">
-        <img src="img/bg.svg" alt="" />
+      <div class="img">
+        <img src="img/bg.svg">
       </div>
-      <div class="login__container">
+      <div class="login-content">
         <form action="index.html">
-          <img src="img/avatar.svg" alt="" />
-          <h2 class="login__title">Welcome</h2>
-          <div class="login__input">
-            <div class="login__icone">
-              <i class="fas fa-user"></i>
-            </div>
-            <div>
-              <h5>Username</h5>
-              <input type="text" class="login__input" />
-            </div>
+          <img src="img/avatar.svg">
+          <h2 class="title">Welcome</h2>
+                 <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input">
+                    </div>
+                 </div>
+                 <div class="input-div pass">
+                    <div class="i"> 
+                       <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                       <h5>Password</h5>
+                       <input type="password" class="input">
+                   </div>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" class="btn" value="Login">
+              </form>
           </div>
-          <div class="login__input">
-            <div class="login__icone">
-              <i class="fas fa-lock"></i>
-            </div>
-            <div>
-              <h5>Password</h5>
-              <input type="password" class="login__input" />
-            </div>
-          </div>
-          <a href="#">Forgot Password?</a>
-          <input class="btn" type="submit" value="Login" />
-        </form>
       </div>
-    </div>
-    <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
